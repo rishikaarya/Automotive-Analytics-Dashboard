@@ -62,3 +62,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
    **Observation:** Cloudy conditions have an average heat index of 71.7, haze conditions rise to 86.3, and thunder conditions peak at 90.3, indicating increasing warmth and humidity.
 
    **Insights:** Severe weather conditions, like Thunder, are linked to higher heat indices, while cloudy weather has the lowest heat index due to less sunlight and lower humidity.
+
+3. What is the average temperature when humidity percentage is greater than 40?
+
+  **Average Temperature Over Time**
+  
+  <img width="627" alt="Screenshot 2024-12-06 at 11 06 06 AM" src="https://github.com/user-attachments/assets/395e7e1a-4296-464a-98f1-1ef76650b62e">
+
+   **Query:** SELECT MEAN(temperature) FROM data GROUP BY time(1m)
+   
+   **Observation:** The average temperature shows cyclical spikes, aligning with time periods during the day.
+
+   **Insights:** This chart reveals significant temperature fluctuations within the observed period. The temperature peaks, reaching over 100°F around 22:40 and 22:50, indicate periods of intense heat. Frequent dips to around 80°F suggest intermittent cooling, possibly due to changes in weather conditions such as wind or cloud cover. This pattern of rapid temperature changes highlights the dynamic nature of the local weather, with substantial variations occurring within short time intervals.
