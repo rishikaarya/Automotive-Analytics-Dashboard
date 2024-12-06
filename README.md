@@ -38,3 +38,9 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 ### CHARTS
 
+1. How does humidity change over time?
+   
+   **Humidity Trends Over Time**
+
+   Description: Humidity levels fluctuate throughout the observed period but remain within a moderate range
+   
