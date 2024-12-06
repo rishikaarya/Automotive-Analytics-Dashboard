@@ -133,3 +133,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 **Observation:**  Significant fluctuation in max and min temperatures suggests high variability in weather conditions during the observed period.
 
 **Insights:** The chart shows fluctuations in maximum and minimum temperatures over time. Maximum temperatures consistently peak above 100°F, while minimum temperatures range between 70°F and 90°F. The variations indicate significant thermal oscillations, likely driven by environmental and meteorological factors
+
+9. What is the average UV index for each UV description category?
+
+**Average UV index by UV description**
+
+ **Query:** SELECT MAX(uvIndex) FROM data GROUP BY uvDesc
+   
+**Observation:** UV index values are highest for "Extreme" and "Very High" categories, while "Low" levels are minimal.
+
+**Insights:** The chart shows UV Index averages, with "Extreme" at 12.2, "Very High" at 9.07, and "High" at 6.61, posing significant risks. "Moderate" (3.87) and "Low" (0.294) indicate lower risks, highlighting the need for precautions during high UV levels in Nagpur.
+
+
