@@ -1,4 +1,4 @@
-# WEATHER MONITORING FOR NAGPUR
+# NAGPUR WEATHER DATASET ANALYSIS 
 
 ### INTRODUCTION
 The dataset includes weather data recorded over a specific period for Nagpur. Each entry includes the exact date and time of recording, capturing variations in meteorological parameters such as temperature, dew point, and humidity. This detailed timestamping allows for in-depth analysis of daily and seasonal weather patterns, helping to identify trends and anomalies over the observed period.
