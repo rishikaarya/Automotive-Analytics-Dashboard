@@ -108,4 +108,4 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
    
 **Observation:** The average heat index is higher during the day (91.0) and lower at night (82.9), indicating cooler nighttime temperatures.
 
-**Insights:** 
+**Insights:** The chart shows a clear difference in Nagpur's heat index, with daytime averaging 91.0°F and nighttime 82.9°F. This highlights significant cooling at night due to reduced solar radiation, impacting comfort levels and energy usage.
