@@ -7,9 +7,9 @@ The dataset includes weather data recorded over a specific period for Nagpur. Ea
  
 ![image](https://github.com/user-attachments/assets/c3e22a6e-4903-4f3a-9d3a-ae8737cb0be9)
 
-Number of rows: **10,497**
+**Number of rows:** 10,497
 
-Number of columns: **19**
+**Number of columns:** 19
 
 ### VARIABLE DESCRIPTION
 1. month: The month of the recorded data (string format).
@@ -121,3 +121,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 **Observation:** The dew point steadily increases over time, peaking during specific hours.
 
 **Insights:** The chart illustrates fluctuations in the average dew point over time. It shows a gradual increase from 22:40, peaking around 23:10, followed by a slight decline and variability thereafter. The peak values indicate higher moisture content in the air, suggesting a rise in humidity levels around that time. 
+
+8. What are the maximum and minimum temperatures recorded each month?
+
+ **Maximum and minimum temperatures over time**
+
+ ![image](https://github.com/user-attachments/assets/7ec8f4cb-b648-410c-89d7-adb1695ed857)
+
+ **Query:** SELECT MAX("temperature") AS "max_temp", MIN("temperature") AS "min_temp" FROM "data" GROUP BY time(1m) FILL(null)
+   
+**Observation:**  Significant fluctuation in max and min temperatures suggests high variability in weather conditions during the observed period.
+
+**Insights:** The chart shows fluctuations in maximum and minimum temperatures over time. Maximum temperatures consistently peak above 100°F, while minimum temperatures range between 70°F and 90°F. The variations indicate significant thermal oscillations, likely driven by environmental and meteorological factors
