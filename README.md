@@ -74,3 +74,16 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
    **Observation:** The average temperature shows cyclical spikes, aligning with time periods during the day.
 
    **Insights:** This chart reveals significant temperature fluctuations within the observed period. The temperature peaks, reaching over 100°F around 22:40 and 22:50, indicate periods of intense heat. Frequent dips to around 80°F suggest intermittent cooling, possibly due to changes in weather conditions such as wind or cloud cover. This pattern of rapid temperature changes highlights the dynamic nature of the local weather, with substantial variations occurring within short time intervals.
+
+4. How does average visibility vary across various cloud cover type?
+ 
+   **Average visibility by cloud cover type**
+
+   <img width="628" alt="Screenshot 2024-12-06 at 11 13 30 AM" src="https://github.com/user-attachments/assets/0c80632c-5b58-4a93-9607-e5df7e05f126">
+
+  **Query:** SELECT MEAN(visibility) FROM data GROUP BY clouds
+   
+  **Observation:** Clear skies (CLR) have the highest visibility, while broken clouds (BKN) and others slightly reduce visibility.
+  
+  **Insights:** This chart shows that few clouds offer the highest visibility at 2.80 miles, followed by clear skies at 2.78 miles. Scattered and overcast clouds provide moderate visibility at 2.56 and 2.67 miles, respectively, while broken clouds have the lowest visibility at 2.21 miles. Visibility decreases as cloud cover increases.
+
