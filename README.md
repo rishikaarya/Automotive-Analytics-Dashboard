@@ -146,4 +146,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Insights:** The chart shows UV Index averages, with "Extreme" at 12.2, "Very High" at 9.07, and "High" at 6.61, posing significant risks. "Moderate" (3.87) and "Low" (0.294) indicate lower risks, highlighting the need for precautions during high UV levels in Nagpur.
 
+10. What is the average Wind chill for each month?
+**Average Wind Chill by Month**
+
+<img width="627" alt="Screenshot 2024-12-06 at 12 22 52 PM" src="https://github.com/user-attachments/assets/4b38a24d-77fd-4c00-bf3e-27c54c13e784">
+
+**Query:** SELECT MEAN(windchill) FROM data GROUP BY month
+   
+**Observation:** Wind chill varies by month, with some months experiencing cooler conditions than others.
+
+**Insights:** The chart shows UV Index averages, with "Extreme" at 12.2, "Very High" at 9.07, and "High" at 6.61, posing significant risks. "Moderate" (3.87) and "Low" (0.294) indicate lower risks, highlighting the need for precautions during high UV levels in Nagpur, reflecting a seasonal warming trend as the months progress, which aligns with the transition from winter to spring. The rising wind chill values reflect increasing temperatures or decreasing wind speeds, contributing to less chilling conditions.
+
 
