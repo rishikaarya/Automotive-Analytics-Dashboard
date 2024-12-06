@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
    
 **Insights:** The humidity trends chart for Nagpur shows significant fluctuations within the observed hour, with notable peaks around 23:00 and 23:10, indicating periods of increased moisture. The frequent variability suggests dynamic weather conditions, potentially influenced by evening cooling or local meteorological events. Overall, the chart highlights the rapid changes in humidity, which could correlate with other weather parameters for deeper analysis.
 
-3. How does the average heat index differ across various weather conditions?
+2. How does the average heat index differ across various weather conditions?
 
 **Average Heat Index by Weather Condition**
 
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Insights:** Severe weather conditions, like Thunder, are linked to higher heat indices, while cloudy weather has the lowest heat index due to less sunlight and lower humidity.
 
-4. What is the average temperature when humidity percentage is greater than 40?
+3. What is the average temperature when humidity percentage is greater than 40?
 
 **Average Temperature Over Time**
   
@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Insights:** This chart reveals significant temperature fluctuations within the observed period. The temperature peaks, reaching over 100°F around 22:40 and 22:50, indicate periods of intense heat. Frequent dips to around 80°F suggest intermittent cooling, possibly due to changes in weather conditions such as wind or cloud cover. This pattern of rapid temperature changes highlights the dynamic nature of the local weather, with substantial variations occurring within short time intervals.
 
-5. How does average visibility vary across various cloud cover type?
+4. How does average visibility vary across various cloud cover type?
  
 **Average visibility by cloud cover type**
 
@@ -86,3 +86,14 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
   
 **Insights:** This chart shows that few clouds offer the highest visibility at 2.80 miles, followed by clear skies at 2.78 miles. Scattered and overcast clouds provide moderate visibility at 2.56 and 2.67 miles, respectively, while broken clouds have the lowest visibility at 2.21 miles. Visibility decreases as cloud cover increases.
 
+5.  Is there a correlation between wind speed and visibility?
+
+**Correlation Between Wind Speed and Visibility**
+
+<img width="624" alt="Screenshot 2024-12-06 at 11 24 53 AM" src="https://github.com/user-attachments/assets/01dce4fc-9bec-4eb8-b1aa-03d368049acc">
+
+**Query:** SELECT MEAN(WindSpeed), MEAN(visibility) FROM data GROUP BY time(1m)
+   
+**Observation:** Wind speed directly affects visibility, with higher speeds generally enhancing it. Understanding this correlation can help predict visibility based on wind forecasts.
+
+**Insights:** This chart shows that few clouds offer the highest visibility at 2.80 miles, followed by clear skies at 2.78 miles. Scattered and overcast clouds provide moderate visibility at 2.56 and 2.67 miles, respectively, while broken clouds have the lowest visibility at 2.21 miles. Visibility decreases as cloud cover increases.
