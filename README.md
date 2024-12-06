@@ -97,3 +97,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 **Observation:** Wind speed directly affects visibility, with higher speeds generally enhancing it. Understanding this correlation can help predict visibility based on wind forecasts.
 
 **Insights:** This chart shows that few clouds offer the highest visibility at 2.80 miles, followed by clear skies at 2.78 miles. Scattered and overcast clouds provide moderate visibility at 2.56 and 2.67 miles, respectively, while broken clouds have the lowest visibility at 2.21 miles. Visibility decreases as cloud cover increases.
+
+6. How does the heat index differ between day and night?
+
+**Day vs Night Comparison of Heat Index**
+
+<img width="627" alt="Screenshot 2024-12-06 at 11 55 03 AM" src="https://github.com/user-attachments/assets/e698bcad-586b-4195-859a-050057882144">
+
+**Query:** SELECT MEAN(HeatIndex) FROM data GROUP BY DayNight
+   
+**Observation:** The average heat index is higher during the day (91.0) and lower at night (82.9), indicating cooler nighttime temperatures.
+
+**Insights:** 
