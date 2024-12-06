@@ -7,8 +7,9 @@ The dataset includes weather data recorded over a specific period for Nagpur. Ea
  
 ![image](https://github.com/user-attachments/assets/c3e22a6e-4903-4f3a-9d3a-ae8737cb0be9)
 
-Number of rows: 10,497
-Number of columns: 19
+Number of rows: **10,497**
+
+Number of columns: **19**
 
 ### VARIABLE DESCRIPTION
 1. month: The month of the recorded data (string format).
