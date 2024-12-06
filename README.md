@@ -126,7 +126,7 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
  **Maximum and minimum temperatures over time**
 
- ![image](https://github.com/user-attachments/assets/7ec8f4cb-b648-410c-89d7-adb1695ed857)
+ <img width="614" alt="Screenshot 2024-12-06 at 12 02 47 PM" src="https://github.com/user-attachments/assets/a38edf4e-157b-48f1-b9be-1d06d581f50c">
 
  **Query:** SELECT MAX("temperature") AS "max_temp", MIN("temperature") AS "min_temp" FROM "data" GROUP BY time(1m) FILL(null)
    
