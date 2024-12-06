@@ -1,6 +1,6 @@
 # Weather Monitoring for Nagpur
 
-## INTRODUCTION
+### INTRODUCTION
 This dataset focuses on meteorological parameters observed over time, offering insights into weather patterns such as temperature, dew point, humidity, UV index, wind chill, and visibility. These data points are critical for weather forecasting, safety measures, and resource planning.
 
 ## DATASET: NAGPUR WEATHER DATASET
