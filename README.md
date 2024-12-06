@@ -1,7 +1,7 @@
 # WEATHER MONITORING FOR NAGPUR
 
 ### INTRODUCTION
-This dataset focuses on meteorological parameters observed over time, offering insights into weather patterns such as temperature, dew point, humidity, UV index, wind chill, and visibility. These data points are critical for weather forecasting, safety measures, and resource planning.
+The dataset includes weather data recorded over a specific period for Nagpur. Each entry includes the exact date and time of recording, capturing variations in meteorological parameters such as temperature, dew point, and humidity. This detailed timestamping allows for in-depth analysis of daily and seasonal weather patterns, helping to identify trends and anomalies over the observed period.
 
 ### DATASET: NAGPUR WEATHER DATASET
  
@@ -30,3 +30,8 @@ Number of columns: 19
 17. clouds: The cloud cover description (e.g., OVC - Overcast, SCT - Scattered) (string format).
 18. rain: A boolean indicating if it rained (True/False).
 19. Rain_today: A string indicating if it rained today (Yes/No).
+
+### GRAFANA DASHBOARD 
+
+https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
+
