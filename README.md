@@ -42,5 +42,9 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
    
    **Humidity Trends Over Time**
 
-   Description: Humidity levels fluctuate throughout the observed period but remain within a moderate range
+   **Description:** Humidity levels fluctuate throughout the observed period but remain within a moderate range
+   <img width="614" alt="Screenshot 2024-12-06 at 10 27 22 AM" src="https://github.com/user-attachments/assets/dca8c3bf-eb41-4afb-8b6a-055f75129eda">
+   **Query:** SELECT MEAN(HumidityPercentage) FROM data GROUP BY time(1m)
+   **Insights:** The humidity trends chart for Nagpur shows significant fluctuations within the observed hour, with notable peaks around 23:00 and 23:10, indicating periods of increased moisture. The frequent variability suggests dynamic weather conditions, potentially influenced by evening cooling or local meteorological events. Overall, the chart highlights the rapid changes in humidity, which could correlate with other weather parameters for deeper analysis.
+
    
