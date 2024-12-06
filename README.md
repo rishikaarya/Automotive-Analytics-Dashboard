@@ -41,10 +41,24 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 1. How does humidity change over time?
    
    **Humidity Trends Over Time**
-
-   **Description:** Humidity levels fluctuate throughout the observed period but remain within a moderate range
+   
    <img width="614" alt="Screenshot 2024-12-06 at 10 27 22 AM" src="https://github.com/user-attachments/assets/dca8c3bf-eb41-4afb-8b6a-055f75129eda">
+   
    **Query:** SELECT MEAN(HumidityPercentage) FROM data GROUP BY time(1m)
+   
+   **Observation:** Humidity levels fluctuate throughout the observed period but remain within a moderate range
+   
    **Insights:** The humidity trends chart for Nagpur shows significant fluctuations within the observed hour, with notable peaks around 23:00 and 23:10, indicating periods of increased moisture. The frequent variability suggests dynamic weather conditions, potentially influenced by evening cooling or local meteorological events. Overall, the chart highlights the rapid changes in humidity, which could correlate with other weather parameters for deeper analysis.
 
+2. How does the average heat index differ across various weather conditions?
+
+   **Average Heat Index by Weather Condition**
+
+   <img width="632" alt="Screenshot 2024-12-06 at 10 41 11 AM" src="https://github.com/user-attachments/assets/f509d185-8018-484a-8c09-4dfafcbb1212">
+
+
+   **Query:** SELECT MEAN(HeatIndex) FROM data GROUP BY condition
    
+   **Observation:** Cloudy conditions have an average heat index of 71.7, haze conditions rise to 86.3, and thunder conditions peak at 90.3, indicating increasing warmth and humidity.
+
+   **Insights:** Severe weather conditions, like Thunder, are linked to higher heat indices, while cloudy weather has the lowest heat index due to less sunlight and lower humidity.
