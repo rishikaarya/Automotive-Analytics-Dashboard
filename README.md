@@ -109,3 +109,15 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 **Observation:** The average heat index is higher during the day (91.0) and lower at night (82.9), indicating cooler nighttime temperatures.
 
 **Insights:** The chart shows a clear difference in Nagpur's heat index, with daytime averaging 91.0°F and nighttime 82.9°F. This highlights significant cooling at night due to reduced solar radiation, impacting comfort levels and energy usage.
+
+7. What is the average dew point over time?
+   
+**Average dew point over time**
+
+<img width="625" alt="Screenshot 2024-12-06 at 12 02 29 PM" src="https://github.com/user-attachments/assets/d3883e3f-5eb8-4e47-aef6-8e9baf67d3d0">
+
+**Query:** SELECT MEAN("DewPoint") AS "avg_dew_point" FROM "data" GROUP BY time(1m)
+   
+**Observation:** The dew point steadily increases over time, peaking during specific hours.
+
+**Insights:** The chart illustrates fluctuations in the average dew point over time. It shows a gradual increase from 22:40, peaking around 23:10, followed by a slight decline and variability thereafter. The peak values indicate higher moisture content in the air, suggesting a rise in humidity levels around that time. 
