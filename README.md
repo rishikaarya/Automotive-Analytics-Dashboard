@@ -138,7 +138,9 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Average UV index by UV description**
 
- **Query:** SELECT MAX(uvIndex) FROM data GROUP BY uvDesc
+<img width="629" alt="Screenshot 2024-12-06 at 12 15 01 PM" src="https://github.com/user-attachments/assets/226cb485-9f7d-4a8b-9521-6e7663dda233">
+
+**Query:** SELECT MAX(uvIndex) FROM data GROUP BY uvDesc
    
 **Observation:** UV index values are highest for "Extreme" and "Very High" categories, while "Low" levels are minimal.
 
