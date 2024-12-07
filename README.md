@@ -1,6 +1,6 @@
 # NAGPUR WEATHER DATASET ANALYSIS 
 
-### OBJECTIVE OF THE DASHBOARD 
+### OBJECTIVE 
 The objective of the dashboard is to analyze and visualize seasonal weather patterns in Nagpur, focusing on key metrics like wind chill, temperature, and humidity.
 
 ### INTRODUCTION
