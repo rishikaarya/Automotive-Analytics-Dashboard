@@ -64,8 +64,8 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Humidity Trends Over Time**
    
-blob:https://web.whatsapp.com/d71bb99b-bf07-4a19-bfed-8eed22a5b832
-   
+<img width="614" alt="Screenshot 2024-12-16 at 11 44 15 PM" src="https://github.com/user-attachments/assets/73fcfdbc-d8b0-49b5-ac26-7032387e5080" />
+  
 **Query:** _SELECT MEAN(HumidityPercentage) FROM data GROUP BY time(1m)_
    
 **Observation:** Humidity levels fluctuate throughout the observed period but remain within a moderate range
