@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/80d07c43-77e8-49a8-87f3-e6ef200033b4
 
 **Humidity Trends Over Time**
    
-<img width="614" alt="Screenshot 2024-12-06 at 10 27 22 AM" src="https://github.com/user-attachments/assets/dca8c3bf-eb41-4afb-8b6a-055f75129eda">
+blob:https://web.whatsapp.com/d71bb99b-bf07-4a19-bfed-8eed22a5b832
    
 **Query:** _SELECT MEAN(HumidityPercentage) FROM data GROUP BY time(1m)_
    
